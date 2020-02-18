@@ -1,0 +1,35 @@
+.large-hero {
+    position: relative;
+    border-bottom: 10px solid $mainBlue;
+
+    &__image {
+        display: block;
+        transform: scaleX(1.025);
+    }
+
+    &__text-content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 5px black;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 2rem;
+        text-shadow: 2px 2px 5px black;
+        margin: 0;
+    }
+}
