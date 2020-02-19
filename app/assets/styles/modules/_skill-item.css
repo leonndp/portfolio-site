@@ -1,0 +1,61 @@
+.skill-item {
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    z-index: 5;
+    
+    &__icon {
+        width: 150px;
+        max-height: 150px;
+        z-index: 5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    &--black {
+        background-color: #2e2c2c;
+    }
+
+    &--orange {
+        background-color: #F88542;
+    }
+
+    &--blue {
+        background-color: #1156A2;
+    }
+
+    &--white {
+        background-color: #f5f5f5;
+    }
+
+    &--green {
+        background-color: #3F8839;
+    }
+
+    &--brown {
+        background-color: #6d4e46;
+    }
+
+    &--yellow {
+        background-color: 	#EDBD1E;
+    }
+
+    &--light-blue {
+        background-color: #8ed5fa;
+    }
+
+    &--red {
+        background-color: #C63D13;
+    }
+
+    &--purple {
+        background-color: #6F3FA9;
+    }
+
+    &--aqua-blue {
+        background-color: #13BDC5;
+    }
+}
