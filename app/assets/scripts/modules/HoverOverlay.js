@@ -1,7 +1,6 @@
 export default class HoverOverlay {
-    constructor(els, textRef) {
+    constructor(els) {
         this.elements = els
-        this.text = textRef
 
         this.injectHTML()
 
@@ -33,7 +32,11 @@ export default class HoverOverlay {
     injectHTML() {
         this.elements.forEach(el => {
             el.insertAdjacentHTML('afterbegin', `
-                <div class="hover-overlay"></div>
+                <div class="hover-overlay">
+                    <div class="hover-overlay__text-content">
+                        <h1 class="hover-overlay__title">${el.getAttribute('data-overlayText')}</h1>
+                    </div>
+                </div>
             `)
         })
     }

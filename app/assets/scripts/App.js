@@ -7,4 +7,4 @@ if (module.hot) {
 }
 
 const typeWriter = new TypeWriter();
-const hoverOverlay = new HoverOverlay(document.querySelectorAll('.skill-item'), 'hello');
+const skillItemsOverlay = new HoverOverlay(document.querySelectorAll('.skill-item'));

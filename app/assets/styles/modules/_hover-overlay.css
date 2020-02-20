@@ -8,10 +8,20 @@
     background-color: black;
     color: white;
     transition: all .3s ease-in-out;
-    
 
     &--is-visible {
-        opacity: 0.5;
+        opacity: 0.75;
         visibility: visible;
+    }
+
+    &__text-content {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    &__title {
+        font-weight: normal;
     }
 }
