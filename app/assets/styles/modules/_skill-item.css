@@ -2,16 +2,24 @@
     background-color: #fff;
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
+
+    @mixin atSmall {
+        min-height: 300px;
+    }
     
     &__icon {
-        width: 150px;
+        width: 100px;
         max-height: 150px;
         z-index: 2;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
+
+        @mixin atSmall {
+            width: 150px;
+        }
     }
 
     &--black {
