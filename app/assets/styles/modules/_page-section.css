@@ -5,8 +5,25 @@
         padding: 4.5rem 0;
     }
 
+    &--b-padding-extra {
+        padding-bottom: 3rem;
+
+        @mixin atMedium {
+            padding: 6rem;
+        }
+    }
+
     &--dark-blue {
         background-color: $darkBlue;
         color: white;
+    }
+
+    &--purple {
+        background-color: $darkPurple;
+        color: white;
+    }
+
+    &--b-border-pink {
+        border-bottom: 10px solid $mainPink;
     }
 }
