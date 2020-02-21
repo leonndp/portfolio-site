@@ -1,6 +1,6 @@
 .large-hero {
     position: relative;
-    border-bottom: 10px solid $mainBlue;
+    border-bottom: 10px solid $lightBlue;
 
     &__image {
         display: block;
