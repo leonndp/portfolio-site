@@ -8,3 +8,5 @@ if (module.hot) {
 
 const typeWriter = new TypeWriter();
 const skillItemsOverlay = new HoverOverlay(document.querySelectorAll('.skill-item'));
+
+const projectItemsOverlay = new HoverOverlay(document.querySelectorAll('.project-item'));

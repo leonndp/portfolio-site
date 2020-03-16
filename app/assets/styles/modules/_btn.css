@@ -1,0 +1,12 @@
+.btn {
+    display: inline-block;
+    background-color: $periwinkle;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: white;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}

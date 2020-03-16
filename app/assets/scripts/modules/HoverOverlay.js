@@ -2,7 +2,7 @@ export default class HoverOverlay {
     constructor(els) {
         this.elements = els
 
-        this.injectHTML()
+        // this.injectHTML()
 
         this.events();
     }
@@ -27,17 +27,5 @@ export default class HoverOverlay {
 
     handleHideOverlay(overlay) {
         overlay.classList.remove('hover-overlay--is-visible')
-    }
-
-    injectHTML() {
-        this.elements.forEach(el => {
-            el.insertAdjacentHTML('afterbegin', `
-                <div class="hover-overlay">
-                    <div class="hover-overlay__text-content">
-                        <h1 class="hover-overlay__title">${el.getAttribute('data-overlayText')}</h1>
-                    </div>
-                </div>
-            `)
-        })
     }
 }

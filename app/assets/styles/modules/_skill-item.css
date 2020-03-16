@@ -2,7 +2,7 @@
     background-color: #fff;
     position: relative;
     width: 100%;
-    min-height: 200px;
+    height: 200px;
 
     @mixin atSmall {
         min-height: 300px;

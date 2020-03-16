@@ -5,8 +5,20 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    &--grid-gap {
+        grid-gap: 15px;
+    }
+
     &--medium-4 {
         grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    }
+
+    &--medium-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &--medium-2 {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     &--t-margin-medium {
