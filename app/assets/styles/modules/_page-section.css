@@ -26,4 +26,13 @@
     &--b-border-pink {
         border-bottom: 10px solid $mainPink;
     }
+
+    &--blue {
+        background-color: $mainBlue;
+        color: white;
+    }
+
+    &--b-border-light-blue {
+        border-bottom: 10px solid $lightBlue;
+    }
 }

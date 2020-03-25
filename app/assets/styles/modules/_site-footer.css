@@ -1,0 +1,12 @@
+.site-footer {
+    background-color: $darkBlue;
+    color: white;
+    padding: 5rem 0;
+    
+    &__copyright {
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 4rem;
+    }
+}

@@ -12,14 +12,19 @@
     &--is-visible {
         opacity: 1;
         visibility: visible;
+
+        .hover-overlay__text-content {
+            top: 50%;
+        }
     }
 
     &__text-content {
         position: absolute;
         left: 50%;
-        top: 50%;
+        top: 90%;
         transform: translateX(-50%) translateY(-50%);
         text-align: center;
+        transition: all ease-in-out 0.2s;
     }
 
     &__title {

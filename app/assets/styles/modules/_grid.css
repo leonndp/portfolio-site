@@ -14,7 +14,11 @@
     }
 
     &--medium-3 {
-        grid-template-columns: repeat(3, 1fr);
+
+        @mixin atMedium {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
     }
 
     &--medium-2 {
