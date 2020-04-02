@@ -21,4 +21,8 @@
     &--t-margin {
         margin-top: 1.2rem;
     }
+
+    &--b-margin {
+        margin-bottom: 1.2rem;
+    }
 }

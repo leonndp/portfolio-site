@@ -30,4 +30,8 @@
     &__title {
         font-weight: normal;
     }
+
+    &__description {
+        font-weight: normal;
+    }
 }

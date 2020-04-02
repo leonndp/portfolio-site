@@ -1,0 +1,40 @@
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.2);
+    transition: all .3s ease-out;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, .94);
+    color: white;
+    z-index: 5;
+    display: flex;
+
+    &--is-visible {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+
+    &__inner {
+        margin: auto;
+    }
+
+    &__close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 2rem;
+        color: $mainBlue;
+        transform: scaleX(1.2);
+        cursor: pointer;
+        transform-origin: 100% 0;
+
+        &:hover {
+            color: $mainPurple;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.project-details {
+
+    &__image  {
+        float: left;
+        border-bottom: 10px solid $mainBlue;
+        
+        & img {
+            margin: 0;
+        }
+    }
+
+    &__text-content {
+        padding: 1.2rem;
+        color: white;
+        background-color: $periwinkle;
+    }
+}
