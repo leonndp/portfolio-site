@@ -7,7 +7,7 @@
     color: white;
     transition: all 0.2s ease-in-out;
     
-    &:hover {
+    &:hover, &:focus {
         cursor: pointer;
         background-color: $darkPeriwinkle;
         text-shadow: 2px 2px 5px rgba(0,0,0,1);
