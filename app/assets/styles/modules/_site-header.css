@@ -1,0 +1,10 @@
+.site-header {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(0,0,0,0.4);
+
+    &__menu-content {
+        float: right;
+    }
+}

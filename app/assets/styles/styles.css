@@ -18,3 +18,5 @@
 @import 'modules/_site-footer';
 @import 'modules/_modal';
 @import 'modules/_project-details';
+@import 'modules/_site-header';
+@import 'modules/_primary-nav';
