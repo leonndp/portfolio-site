@@ -12,19 +12,15 @@
 <body>
   <header class="site-header">
     <div class="wrapper">
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+
       <div class="site-header__menu-content">
         <div class="primary-nav primary-nav--pull-right">
-          <!-- <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul> -->
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="#about" id="about-link">About</a>
+          <a href="#projects" id="projects-link">Projects</a>
+          <a href="#contact" id="contact-link">Contact</a>
         </div>
       </div>
     </div>
@@ -59,7 +55,8 @@
     </div>
   </div>
 
-  <div class="page-section page-section--dark-blue page-section--b-border-pink page-section--b-padding-extra">
+  <div id="about" class="page-section page-section--dark-blue page-section--b-border-pink page-section--b-padding-extra"
+    data-matching-link="#about-link">
     <div class="wrapper">
       <div class="generic-content-container">
         <h2 class="headline headline--centered">About Me</h2>
@@ -173,7 +170,8 @@
     </div>
   </div>
 
-  <div class="page-section page-section--purple page-section--b-border-light-blue">
+  <div id="projects" class="page-section page-section--purple page-section--b-border-light-blue"
+    data-matching-link="#projects-link">
     <div class="wrapper">
       <h2 class="headline headline--centered">Projects</h2>
       <div class="grid grid--medium-3 grid--t-margin-medium">
@@ -241,7 +239,7 @@
 
   </div> -->
 
-  <footer class="site-footer">
+  <footer id="contact" class="site-footer" data-matching-link="#contact-link">
     <div class="wrapper">
       <h2 class="headline headline--centered">Let's get started!</h2>
       <div class="social-icons social-icons--t-margin">

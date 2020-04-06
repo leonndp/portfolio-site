@@ -1,4 +1,5 @@
 .primary-nav {
+    text-align: center;
 
     a {
         padding: 1rem 1.2rem;
@@ -9,6 +10,16 @@
         
         &:hover {
             background-color: $periwinkle;
+        }
+
+        &.is-current-link {
+            background-color: $periwinkle;
+        }
+    }
+
+    &--pull-right {
+        @mixin atMedium {
+            float: right;
         }
     }
 }
