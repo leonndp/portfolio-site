@@ -34,4 +34,17 @@
     &__description {
         font-weight: normal;
     }
+
+    &__btn-container {
+        display: flex;
+        justify-content: center;
+
+            & button {
+                margin-right: 10px;
+            }
+
+            & button:last-child {
+                margin-right: 0;
+            }
+    }
 }
